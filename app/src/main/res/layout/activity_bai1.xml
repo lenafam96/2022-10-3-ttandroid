@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".bai1">
+    <Button
+        android:id="@+id/btn_goidien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gọi điện"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@android:color/darker_gray"/>
+    <Button
+        android:id="@+id/btn_nhantin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhắn tin"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@android:color/darker_gray"/>
+    <Button
+        android:id="@+id/btn_hienthiweb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hiển thị web"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@android:color/darker_gray"/>
+    <Button
+        android:id="@+id/btn_hienthitoado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hiển thị toạ dộ"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@android:color/darker_gray"/>
+</LinearLayout>

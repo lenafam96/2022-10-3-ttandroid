@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="20dp"
+    tools:context=".bai1_nhantin">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone number:"/>
+    <EditText
+        android:id="@+id/bai1_nhantin_inputNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="083-992-9303"
+        android:inputType="phone"
+        android:digits="0123456789+"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message:"/>
+    <EditText
+        android:id="@+id/bai1_nhantin_inputMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:gravity="top|start"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/bai1_nhantin_btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:backgroundTint="@android:color/darker_gray"
+        android:textSize="20sp"/>
+
+</LinearLayout>
